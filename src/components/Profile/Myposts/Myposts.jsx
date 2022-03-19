@@ -2,7 +2,7 @@ import React from 'react';
 import s from '../Myposts/Myposts.module.css';
 
 const Myposts  = () => {
-return
+return (
 
 <div className={s.posts}>
        <div className={s.item}>
@@ -14,7 +14,9 @@ return
        <div>
          post3
        </div>
-     </div>
+     </div>)
+
+
 }
 
 export default Myposts;

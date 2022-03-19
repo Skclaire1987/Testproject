@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Navbar  = () => {
-return
+return (
 <nav className='nav'>
 <div>
 <a>Profile</a>
@@ -15,7 +15,7 @@ return
 <div>
 <a>Music</a>
 </div>
-</nav>
+</nav>)
 }
 
 export default Navbar;
